@@ -1,0 +1,52 @@
+.card {
+   max-width: 250px;
+   background-color: rgb(147, 171, 238);
+   text-align: center;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   border-radius: 10px;
+   padding-bottom: 20px;
+   border: 2px solid rgb(255, 174, 0);
+}
+
+.card-img {
+   width: 250px;
+   height: 250px;
+   border-radius: 5px;
+}
+
+.card-content {
+   width: 250px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   box-sizing: border-box;
+}
+.card-header {
+   font-family: "Creepster", cursive;
+   font-size: 20px;
+}
+
+.card-status {
+   font-family: "Roboto", sans-serif;
+   font-size: 18px;
+}
+
+.card-button {
+   width: 40%;
+   text-decoration: none;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   font-size: 20px;
+   color: rgb(255, 255, 255);
+   background-color: rgb(128, 128, 128);
+   border-radius: 10px;
+   border: 2px solid rgb(255, 174, 0);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   &:hover {
+      color: rgb(0, 0, 0);
+      background-color: rgb(145, 238, 145);
+   }
+}

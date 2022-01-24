@@ -1,0 +1,16 @@
+.header {
+   display: flex;
+   justify-content: center;
+   margin-top: 20px;
+}
+
+.header-nav {
+   font-size: 26px;
+   font-family: "Creepster", cursive;
+   color: rgb(0, 0, 0);
+   text-decoration: none;
+   padding: 10px;
+   &:hover {
+      color: rgb(145, 238, 145);
+   }
+}

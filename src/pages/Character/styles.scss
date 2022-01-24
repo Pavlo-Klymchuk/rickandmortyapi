@@ -1,0 +1,30 @@
+.main-character {
+   text-align: center;
+}
+.character-container {
+   width: 100%;
+   margin-top: 50px;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-gap: 20px;
+   justify-items: center;
+   align-items: center;
+}
+
+@media (max-width: 1300px) {
+   .character-container {
+      grid-template-columns: 1fr 1fr 1fr;
+   }
+}
+
+@media (max-width: 900px) {
+   .character-container {
+      grid-template-columns: 1fr 1fr;
+   }
+}
+
+@media (max-width: 600px) {
+   .character-container {
+      grid-template-columns: 1fr;
+   }
+}
